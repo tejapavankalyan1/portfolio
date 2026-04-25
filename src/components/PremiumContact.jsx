@@ -4,8 +4,8 @@ import { motion, useReducedMotion } from "framer-motion";
 const contactLinks = [
   {
     label: "Email",
-    value: "tejapavankalyan456@gmail.com",
-    href: "mailto:tejapavankalyan456@gmail.com",
+    value: "tejapavankalyank@gmail.com",
+    href: "mailto:tejapavankalyank@gmail.com",
   },
   {
     label: "Phone",
