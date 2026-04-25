@@ -10,14 +10,14 @@ const Contact = () => {
     {
       id: 1,
       type: 'Email',
-      value: 'tejapavankalyan456@gmail.com',
+      value: 'tejapavankalyank@gmail.com',
       icon: '✉️',
       color: '#FF6B6B',
       action: () => {
-        navigator.clipboard.writeText('tejapavankalyan456@gmail.com');
+        navigator.clipboard.writeText('tejapavankalyank@gmail.com');
         setCopied('email');
         setTimeout(() => setCopied(null), 2000);
-        window.location.href = 'mailto:tejapavankalyan456@gmail.com';
+        window.location.href = 'mailto:tejapavankalyank@gmail.com';
       }
     },
     {
@@ -108,7 +108,7 @@ const Contact = () => {
           
           <div className="actions-grid">
             <a 
-              href="mailto:kodavarthitejapavankalyan456@gmail.com" 
+              href="mailto:tejapavankalyank@gmail.com" 
               className="action-card email"
               onMouseEnter={() => setActiveContact(1)}
               onMouseLeave={() => setActiveContact(null)}
@@ -116,7 +116,7 @@ const Contact = () => {
               <div className="action-icon">📧</div>
               <div className="action-content">
                 <h4>Send Email</h4>
-                <p>kodavarthitejapavankalyan456@gmail.com</p>
+                <p>tejapavankalyank@gmail.com</p>
               </div>
             </a>
             
