@@ -73,9 +73,9 @@ const PremiumContact = () => {
               <button className="button-primary" onClick={copyEmail}>
                 Copy email
               </button>
-              <a className="button-secondary" href="mailto:tejapavankalyan456@gmail.com">
+              {/* <a className="button-secondary" href="mailto:tejapavankalyan456@gmail.com">
                 Start a conversation
-              </a>
+              </a> */}
             </div>
 
             <p className="copy-feedback">
